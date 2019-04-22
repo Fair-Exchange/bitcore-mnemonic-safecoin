@@ -1,5 +1,5 @@
 {
-  "name": "bitcore-mnemonic-safecoin",
+  "name": "bitcore-mnemonic",
   "version": "1.5.1",
   "description": "BIP39 Mnemonics implemented for Cryptocoins.",
   "author": "BitPay <dev@bitpay.com>, Safecoin team",
@@ -26,7 +26,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/fair-exchange/bitcore-mnemonic-safecoin.git"
+    "url": "https://github.com/fair-exchange/bitcore-mnemonic.git"
   },
   "keywords": [
     "bitcoin",
@@ -39,7 +39,7 @@
   "license": "MIT",
   "devDependencies": {
     "assert": "^1.1.2",
-    "bitcore-build-safecoin": "git+ssh://git@github.com:Fair-Exchange/bitcore-build-safecoin",
+    "bitcore-build-safecoin": "git+ssh://git@github.com/Fair-Exchange/bitcore-build-safecoin.git",
     "brfs": "^2.0.1",
     "chai": "^4.2.0",
     "gulp": "^4.0.0",
@@ -47,17 +47,18 @@
     "sinon": "^7.1.1"
   },
   "dependencies": {
-    "bitcore-lib": "=0.16.0",
-    "bitcore-lib-anon-mini": "git+https://github.com/fair-exchange/bitcore-lib-anon-mini.git",
-    "bitcore-lib-btcz-mini": "git+https://github.com/fair-exchange/bitcore-lib-btcz-mini.git",
+     "bitcore-lib": "=8.2.0",
+    "bitcore-lib-anon": "git+https://github.com/EternityTula/bitcore-lib-anon.git",
+    "bitcore-lib-btcz": "git+https://github.com/bitcoinz-wallets/bitcore-lib-btcz.git",
     "bitcore-lib-btg": "git+https://github.com/fair-exchange/bitcore-lib-btg.git",
-    "bitcore-lib-ltc-mini": "git+https://github.com/fair-exchange/bitcore-lib-ltc-mini.git",
-    "bitcore-lib-rvn-mini": "git+https://github.com/fair-exchange/bitcore-lib-rvn-mini.git",
-    "bitcore-lib-safecoin": "git+https://github.com/fair-exchange/bitcore-lib-safecoin.git",
-    "bitcore-lib-zcl-mini": "git+https://github.com/fair-exchange/bitcore-lib-zcl-mini.git",
+    "bitcore-lib-ltc": "git+https://github.com/EternityTula/bitcore-lib-ltc.git",
+    "bitcore-lib-rito": "git+https://github.com/EternityTula/bitcore-lib-rito.git",
+    "bitcore-lib-rvn": "git+https://github.com/EternityTula/bitcore-lib-rvn.git",
+    "bitcore-lib-safecoin": "git+https://github.com/EternityTula/bitcore-lib-safecoin.git",
+    "bitcore-lib-zcl": "git+https://github.com/EternityTula/bitcore-lib-zcl.git",
     "bitcore-lib-zel": "git+https://github.com/fair-exchange/bitcore-lib-zel.git",
     "bitcore-lib-zen": "git+https://github.com/fair-exchange/bitcore-lib-zen.git",
-    "bitcore-lib-rito-mini": "git+https://github.com/eternitytula/bitcore-lib-rito-mini.git",
+    "bitcore-mnemonic": "git+https://github.com/EternityTula/bitcore-mnemonic.git",
     "unorm": "^1.3.3"
   }
 }
