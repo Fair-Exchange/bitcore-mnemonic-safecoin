@@ -39,7 +39,7 @@
   "license": "MIT",
   "devDependencies": {
     "assert": "^1.1.2",
-    "bitcore-build-safecoin": "git+ssh://git@github.com/Fair-Exchange/bitcore-build-safecoin.git",
+    "bitcore-build-safecoin": "git+https://github.com/Fair-Exchange/bitcore-build-safecoin.git",
     "brfs": "^2.0.1",
     "chai": "^4.2.0",
     "gulp": "^4.0.0",
